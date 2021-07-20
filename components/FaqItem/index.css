@@ -1,0 +1,29 @@
+.qna-container {
+  display: flex;
+  margin-top: 25px;
+  align-items: center;
+  border: 1px #d7dae6 solid;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.qna {
+  width: 100%;
+}
+
+.question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.answer {
+  color: #555555;
+  margin-top: 15px;
+}
+
+.toggle-icon {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}

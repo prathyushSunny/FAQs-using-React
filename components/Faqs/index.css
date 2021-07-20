@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #d7dae6;
+}
+
+.cards-container {
+  height: 90%;
+  max-height: 700px;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  width: 90%;
+  max-width: 650px;
+  border-radius: 25px;
+  padding: 20px;
+  padding-bottom: 20px;
+  overflow-x: auto;
+}
+
+.question {
+  color: #52606d;
+  font-weight: bold;
+}
+
+.faqs-title {
+  text-align: center;
+  width: 100%;
+  color: #cb8805;
+}
